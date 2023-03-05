@@ -1,0 +1,30 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "client web app",
+  "main": "js/index.js",
+  "scripts": {
+    "deploy": "lt --port 8000",
+    "deploy_ngrok": "ngrok http 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korolevichlisa/track-your-money.git"
+  },
+  "keywords": [
+    "track-your-money",
+    "money",
+    "money-track",
+    "track"
+  ],
+  "author": "korolevichlisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korolevichlisa/track-your-money/issues"
+  },
+  "homepage": "https://github.com/korolevichlisa/track-your-money#readme",
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "ngrok": "^4.3.3"
+  }
+}
