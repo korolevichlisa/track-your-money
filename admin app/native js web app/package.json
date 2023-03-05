@@ -1,7 +1,7 @@
 {
   "name": "web-app",
   "version": "1.0.0",
-  "description": "client web app",
+  "description": "Admin panel",
   "main": "js/index.js",
   "scripts": {
     "deploy": "lt --port 8000",
